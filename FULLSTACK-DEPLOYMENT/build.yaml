@@ -11,7 +11,7 @@ spec:
   source:
     type: Git
     git:
-      uri: "https://github.com/CloudTechDevOps/Hotstar-DevOps-Project-NodeJS.git"
+      uri: "https://github.com/patilcloud11/HotStar-Project.git"
       ref: main     # change if your default branch is not 'main'
     contextDir: "." # if Dockerfile is at repo root
   strategy:
@@ -34,4 +34,5 @@ metadata:
   name: nodejs-image
   namespace: cloud53375-dev
   labels:
+
     app: nodejs-app
